@@ -7,13 +7,18 @@ notifications:
 jdk:
 - openjdk7
 - oraclejdk7
+install:
+- "wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh"
+- "heroku plugins:install https://github.com/ddollar/heroku-push"
 before_script:
-- ./gradlew check
-- echo -e "Host heroku.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-- git remote add deploy git@heroku.com:erkimoddarar-staging.git
-- git push deploy
+- "heroku auth:login"
 script:
+- ./gradlew check
+- "heroku push --app erkimoddarar-staging"
 - ./gradlew seleniumXvfb
 deploy:
+  provider: heroku
   api_key:
     secure: gudCFkB1lDkAnRYB9HqWYv2wfaOJnOfDHY+PhRfQMlahx0dgyacek00OlQsfbyb/O0T437i4pXCjZy1UXl/1TzX2hpgoA9prlSHPgDUlhEEAXsNcxnFaas33fYVUDWU01OWB44TV6mQbZlsjMOPw3mfCmTKTQ6yJ160um+VJr9s=
+  app: erkimoddarar
+  on: master
