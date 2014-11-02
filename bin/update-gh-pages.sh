@@ -5,9 +5,10 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   echo `pwd`
   echo `ls`
   cd ~/
+  mkdir roni
   echo `pwd`
   echo `ls`
-  cp -Rf build/reports/ $HOME/coverage
+  cp -Rf build/reports/ $HOME/roni
 
   #go to home and setup git
   cd $HOME
@@ -19,7 +20,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
 
   #go into diractory and copy data we're interested in to that directory
   cd gh-pages
-  cp -Rf $HOME/coverage/* .
+  cp -Rf $HOME/roni/ .
 
   #add, commit and push files
   git add -f .
