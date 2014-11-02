@@ -9,9 +9,7 @@ jdk:
 - oraclejdk7
 before_script:
 - ./gradlew check
-#- eval $(ssh-agent)
-#- chmod 600 .travis/staging_deploy_key.pem
-#- ssh-add gudCFkB1lDkAnRYB9HqWYv2wfaOJnOfDHY+PhRfQMlahx0dgyacek00OlQsfbyb/O0T437i4pXCjZy1UXl/1TzX2hpgoA9prlSHPgDUlhEEAXsNcxnFaas33fYVUDWU01OWB44TV6mQbZlsjMOPw3mfCmTKTQ6yJ160um+VJr9s=
+- echo -e "Host heroku.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - git remote add deploy git@heroku.com:erkimoddarar-staging.git
 - git push deploy
 script:
