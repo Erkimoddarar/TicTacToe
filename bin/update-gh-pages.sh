@@ -8,7 +8,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   mkdir roni
   echo `pwd`
   echo `ls`
-  cp -Rf build/reports/ $HOME/roni
+  cp -Rf ~/build/Erkimoddarar/TicTacToe/build/reports/ $HOME/roni
 
   #go to home and setup git
   cd $HOME
