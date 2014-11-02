@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.1.1" timestamp="2014-11-02T19:40:59.052">
+<pmd version="5.1.1" timestamp="2014-11-02T19:55:52.796">
 <file name="/home/travis/build/Erkimoddarar/TicTacToe/src/selenium/java/ttt/IndexPageBaseTest.java">
 <violation beginline="3" endline="3" begincolumn="1" endcolumn="37" rule="UnusedImports" ruleset="Type Resolution" package="ttt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/typeresolution.html#UnusedImports" priority="4">
 Avoid unused imports such as 'java.util.concurrent.TimeUnit'
