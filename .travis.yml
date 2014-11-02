@@ -20,3 +20,6 @@ deploy:
     secure: T1A92Eo2CQtMXOE8XQGlrl6h4W3tDcyOxSiAF4HKd7w+OlvCFSgWtwNHpP4aaudaJ3GOqjP3iNT+UyP/6pZPzsffr0W8/z/wcQGDZ6rThBfCYPPFlm/qrhSr4dUBzXyhJEmuuc8xc0jw+9MjKLyCaH4PzbuFYmyJtkmKvshPah0=
   app: erkimoddarar
   on: master
+env:
+  matrix:
+    secure: hkXT/VBCBm5dagOucVNFWDUqC9dGb8f7IOIc5gqO/8YuJ2a4xJWPMHNvYk72CAKyrS+1ClZ+PBAOCvob4NBNH+02olJldm5H7UYDm+bJDcOnYddSezIM6QPL5Zl8PJ7f9XtgC/uvrxAmOlatNUHx4iqzLyhoRXc6+wNhlMiQxg0=
