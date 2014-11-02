@@ -10,8 +10,6 @@ jdk:
 install:
 - "wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh"
 - "heroku plugins:install https://github.com/ddollar/heroku-push"
-before_script:
-- "heroku auth:login"
 script:
 - ./gradlew check
 - "heroku push --app erkimoddarar-staging"
