@@ -35,6 +35,7 @@ public class IndexPageBaseTest {
         baseUrl = "http://erkimoddarar-staging.herokuapp.com";
         driver.get(baseUrl + "/");
         driver.findElement(By.id("play")).click();
+        driver.findElement(By.id("newGame")).click();
         assertEquals("The title was not Erkimoddarar - Game", "Erkimoddarar - Game", driver.getTitle());
         driver.close();
     }
