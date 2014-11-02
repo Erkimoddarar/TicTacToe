@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.1.1" timestamp="2014-11-02T19:32:59.930">
+<file name="/home/travis/build/Erkimoddarar/TicTacToe/src/test/java/ttt/BoardTest.java">
+<violation beginline="16" endline="16" begincolumn="41" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ttt" class="BoardTest" method="main" variable="args" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="25" endcolumn="72" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="BoardTest" method="main" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (static property access)
+</violation>
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="89" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="BoardTest" method="testSignIsCorrect" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="89" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="BoardTest" method="testSignIsCorrect" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="89" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="BoardTest" method="testSignIsCorrect" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="24" endline="24" begincolumn="57" endcolumn="88" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="BoardTest" method="testSignIsCorrect" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="24" endline="24" begincolumn="57" endcolumn="88" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="BoardTest" method="testSignIsCorrect" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="24" endline="24" begincolumn="57" endcolumn="88" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="BoardTest" method="testSignIsCorrect" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="28" endline="35" begincolumn="16" endcolumn="9" rule="JUnitTestsShouldIncludeAssert" ruleset="JUnit" package="ttt" class="BoardTest" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/junit.html#JUnitTestsShouldIncludeAssert" priority="3">
+JUnit tests should include assert() or fail()
+</violation>
+<violation beginline="38" endline="44" begincolumn="16" endcolumn="9" rule="JUnitTestsShouldIncludeAssert" ruleset="JUnit" package="ttt" class="BoardTest" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/junit.html#JUnitTestsShouldIncludeAssert" priority="3">
+JUnit tests should include assert() or fail()
+</violation>
+<violation beginline="119" endline="124" begincolumn="16" endcolumn="9" rule="JUnitTestsShouldIncludeAssert" ruleset="JUnit" package="ttt" class="BoardTest" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/junit.html#JUnitTestsShouldIncludeAssert" priority="3">
+JUnit tests should include assert() or fail()
+</violation>
+</file>
+<file name="/home/travis/build/Erkimoddarar/TicTacToe/src/test/java/ttt/CellTest.java">
+<violation beginline="11" endline="11" begincolumn="17" endcolumn="63" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="CellTest" method="main" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (static property access)
+</violation>
+</file>
+<file name="/home/travis/build/Erkimoddarar/TicTacToe/src/test/java/ttt/PlayerTest.java">
+<violation beginline="8" endline="8" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ttt" class="PlayerTest" method="main" variable="args" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="17" endcolumn="65" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="PlayerTest" method="main" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (static property access)
+</violation>
+</file>
+<file name="/home/travis/build/Erkimoddarar/TicTacToe/src/test/java/ttt/TicTacToeTest.java">
+<violation beginline="7" endline="115" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Code Size" package="ttt" class="TicTacToeTest" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/codesize.html#TooManyMethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="20" endline="20" begincolumn="17" endcolumn="96" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testGetPlayer1" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="20" endline="20" begincolumn="70" endcolumn="95" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testGetPlayer1" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="26" endline="26" begincolumn="17" endcolumn="97" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testGetPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="26" endline="26" begincolumn="71" endcolumn="96" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testGetPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="32" endline="32" begincolumn="17" endcolumn="108" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testSwitchPlayer" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="32" endline="32" begincolumn="80" endcolumn="107" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testSwitchPlayer" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="39" endline="39" begincolumn="17" endcolumn="108" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testSwitchPlayerAfterIncreaseRound" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="39" endline="39" begincolumn="80" endcolumn="107" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testSwitchPlayerAfterIncreaseRound" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="47" endline="47" begincolumn="17" endcolumn="108" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testSwitchPlayerAfterIncreaseGame" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="47" endline="47" begincolumn="80" endcolumn="107" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testSwitchPlayerAfterIncreaseGame" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="66" endline="66" begincolumn="17" endcolumn="48" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testScoreMessageAfterSeveralGames" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="67" endline="67" begincolumn="17" endcolumn="48" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testScoreMessageAfterSeveralGames" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="68" endline="68" begincolumn="17" endcolumn="48" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testScoreMessageAfterSeveralGames" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="70" endline="70" begincolumn="17" endcolumn="48" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testScoreMessageAfterSeveralGames" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="71" endline="71" begincolumn="17" endcolumn="48" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="TicTacToeTest" method="testScoreMessageAfterSeveralGames" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+</file>
+</pmd>

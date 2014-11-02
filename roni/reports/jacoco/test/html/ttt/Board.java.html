@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Board.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">TicTacToe</a> &gt; <a href="index.source.html" class="el_package">ttt</a> &gt; <span class="el_source">Board.java</span></div><h1>Board.java</h1><pre class="source lang-java linenums">package ttt;
+
+public class Board {
+	private Cell[][] _board;
+
+<span class="fc" id="L6">	private final int _maxRows = 3;</span>
+<span class="fc" id="L7">	private final int _maxColumns = 3;</span>
+
+<span class="fc" id="L9">	public Board() {</span>
+<span class="fc" id="L10">		_board = new Cell[3][3];</span>
+<span class="fc" id="L11">		int count = 0;</span>
+<span class="fc bfc" id="L12" title="All 2 branches covered.">		for (int i = 0; i &lt; _maxRows; i++) {</span>
+<span class="fc bfc" id="L13" title="All 2 branches covered.">			for (int j = 0; j &lt; _maxColumns; j++) {</span>
+<span class="fc" id="L14">				Cell newCell = new Cell(count);</span>
+<span class="fc" id="L15">				_board[i][j] = newCell;</span>
+<span class="fc" id="L16">				count++;</span>
+			}
+		}
+<span class="fc" id="L19">	}</span>
+
+	public Cell[][] getBoard() {
+<span class="fc" id="L22">		return _board;</span>
+	}
+
+	public boolean markCell(final int number,final char sign) {
+<span class="fc" id="L26">		int count = 0;</span>
+
+<span class="pc bpc" id="L28" title="1 of 4 branches missed.">		if(number &lt; 0 || number &gt; 8) {</span>
+<span class="fc" id="L29">			final String exceptionMessage = &quot;Number must be from 0 to 8&quot;;</span>
+<span class="fc" id="L30">			throw new IllegalArgumentException(exceptionMessage);</span>
+		}
+<span class="fc bfc" id="L32" title="All 4 branches covered.">		else if (sign == 'X' || sign == 'O') {</span>
+<span class="pc bpc" id="L33" title="1 of 2 branches missed.">			for (int i = 0; i &lt; _maxRows; i++) {</span>
+<span class="fc bfc" id="L34" title="All 2 branches covered.">				for (int j = 0; j &lt; _maxColumns; j++) {</span>
+<span class="fc bfc" id="L35" title="All 2 branches covered.">					if (count == number) {</span>
+<span class="fc bfc" id="L36" title="All 2 branches covered.">						if(this._board[i][j].isChecked()){</span>
+<span class="fc" id="L37">							return false;</span>
+						} else {
+<span class="fc" id="L39">							this._board[i][j].setSign(sign);</span>
+<span class="fc" id="L40">							this._board[i][j].setChecked();</span>
+<span class="fc" id="L41">							return true;</span>
+						}		
+					}
+<span class="fc" id="L44">					count++;</span>
+				}
+			}			
+		}
+		else{
+<span class="fc" id="L49">			final String exceptionMessage = &quot;Sign must be either X or O&quot;;</span>
+<span class="fc" id="L50">			throw new IllegalArgumentException(exceptionMessage);</span>
+		}	
+<span class="nc" id="L52">		return false;</span>
+	}
+
+	public String displayBoard() {
+<span class="fc" id="L56">		String board = &quot;&quot;;</span>
+<span class="fc bfc" id="L57" title="All 2 branches covered.">		for(int i = 0; i &lt; _maxRows; i++) {</span>
+<span class="fc bfc" id="L58" title="All 2 branches covered.">			for(int j = 0; j &lt; _maxColumns; j++) {</span>
+<span class="fc" id="L59">				board = board + this._board[i][j].getSign() + &quot; | &quot;;</span>
+			}
+<span class="fc" id="L61">			board = board.substring(0, board.length() - 3);</span>
+<span class="fc" id="L62">			board = board + &quot;\n&quot;;</span>
+		}
+<span class="fc" id="L64">		return board;</span>
+	}
+
+	public boolean isFull() {
+<span class="fc bfc" id="L68" title="All 2 branches covered.">		for(int i = 0; i &lt; _maxRows; i++) {</span>
+<span class="fc bfc" id="L69" title="All 2 branches covered.">			for(int j = 0; j &lt; _maxColumns; j++) {</span>
+<span class="fc bfc" id="L70" title="All 2 branches covered.">				if(!this._board[i][j].isChecked()) {</span>
+<span class="fc" id="L71">					return false;</span>
+				}
+			}
+		}
+<span class="fc" id="L75">		return true;</span>
+	}
+
+	public boolean isWinner() {
+<span class="fc bfc" id="L79" title="All 6 branches covered.">		return isWinnerHorizontalCheck() || isWinnerVerticalCheck() || isWinnerDiagonalCheck();</span>
+	}
+
+	private boolean isWinnerHorizontalCheck() {
+<span class="fc bfc" id="L83" title="All 2 branches covered.">		for(int i = 0; i &lt; _maxRows; i++) {</span>
+<span class="pc bpc" id="L84" title="1 of 6 branches missed.">			if(this._board[i][0].isChecked() &amp;&amp; </span>
+				this._board[i][0].getSign() == this._board[i][1].getSign() &amp;&amp;
+				this._board[i][1].getSign() == this._board[i][2].getSign()) {
+<span class="fc" id="L87">				return true;</span>
+			}
+		}
+<span class="fc" id="L90">		return false;</span>
+	}
+
+	private boolean isWinnerVerticalCheck() {
+<span class="fc bfc" id="L94" title="All 2 branches covered.">		for(int i = 0; i &lt; _maxRows; i++) {</span>
+<span class="pc bpc" id="L95" title="1 of 6 branches missed.">			if(this._board[0][i].isChecked() &amp;&amp;</span>
+				this._board[0][i].getSign() == this._board[1][i].getSign() &amp;&amp;
+				this._board[1][i].getSign() == this._board[2][i].getSign()) {
+<span class="fc" id="L98">				return true;</span>
+			}
+		}
+<span class="fc" id="L101">		return false;</span>
+	}
+
+	private boolean isWinnerDiagonalCheck() {
+<span class="pc bpc" id="L105" title="2 of 6 branches missed.">		if(this._board[0][0].isChecked() &amp;&amp;</span>
+			this._board[0][0].getSign() == this._board[1][1].getSign() &amp;&amp;
+			this._board[1][1].getSign() == this._board[2][2].getSign()) {
+<span class="fc" id="L108">			return true;</span>
+		}
+<span class="pc bpc" id="L110" title="5 of 6 branches missed.">		if(this._board[2][0].isChecked() &amp;&amp;</span>
+			this._board[2][0].getSign() == this._board[1][1].getSign() &amp;&amp;
+			this._board[1][1].getSign() == this._board[0][2].getSign()) {
+<span class="nc" id="L113">			return true;</span>
+		}
+<span class="fc" id="L115">		return false;</span>
+	}
+
+
+	public char getCellSign(final int number) {
+<span class="fc" id="L120">		int count = 0;</span>
+<span class="pc bpc" id="L121" title="1 of 2 branches missed.">		for (int i = 0; i &lt; _maxRows; i++) {</span>
+<span class="fc bfc" id="L122" title="All 2 branches covered.">				for (int j = 0; j &lt; _maxColumns; j++) {</span>
+<span class="fc bfc" id="L123" title="All 2 branches covered.">					if (count == number) {</span>
+<span class="fc" id="L124">						return this._board[i][j].getSign();							</span>
+					}
+<span class="fc" id="L126">					count++;</span>
+				}
+			}
+<span class="nc" id="L129">		return ' ';</span>
+	}
+
+
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.1.201405082137</span></div></body></html>

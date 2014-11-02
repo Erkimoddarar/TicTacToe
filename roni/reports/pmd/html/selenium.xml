@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.1.1" timestamp="2014-11-02T19:32:58.692">
+<file name="/home/travis/build/Erkimoddarar/TicTacToe/src/selenium/java/ttt/IndexPageBaseTest.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="37" rule="UnusedImports" ruleset="Type Resolution" package="ttt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.concurrent.TimeUnit'
+</violation>
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="37" rule="UnusedImports" ruleset="Import Statements" package="ttt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.concurrent.TimeUnit'
+</violation>
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="42" rule="UnusedImports" ruleset="Type Resolution" package="ttt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.junit.Assert.assertTrue'
+</violation>
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="42" rule="UnusedImports" ruleset="Import Statements" package="ttt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.junit.Assert.assertTrue'
+</violation>
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Type Resolution" package="ttt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.junit.AfterClass'
+</violation>
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Import Statements" package="ttt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.junit.AfterClass'
+</violation>
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="24" rule="UnusedImports" ruleset="Type Resolution" package="ttt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.junit.Before'
+</violation>
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="24" rule="UnusedImports" ruleset="Import Statements" package="ttt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.junit.Before'
+</violation>
+<violation beginline="9" endline="9" begincolumn="1" endcolumn="29" rule="UnusedImports" ruleset="Type Resolution" package="ttt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.junit.BeforeClass'
+</violation>
+<violation beginline="9" endline="9" begincolumn="1" endcolumn="29" rule="UnusedImports" ruleset="Import Statements" package="ttt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.junit.BeforeClass'
+</violation>
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="40" rule="UnusedImports" ruleset="Type Resolution" package="ttt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.openqa.selenium.support.ui'
+</violation>
+<violation beginline="26" endline="26" begincolumn="19" endcolumn="61" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="ttt" class="IndexPageBaseTest" method="assertTitle" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;http://erkimoddarar-staging.herokuapp.com&quot; appears 10 times in this file; the first occurrence is on line 26
+</violation>
+<violation beginline="37" endline="37" begincolumn="9" endcolumn="49" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertTitleGame" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="37" endline="37" begincolumn="34" endcolumn="39" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="ttt" class="IndexPageBaseTest" method="assertTitleGame" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;play&quot; appears 9 times in this file; the first occurrence is on line 37
+</violation>
+<violation beginline="38" endline="38" begincolumn="9" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertTitleGame" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="38" endline="38" begincolumn="34" endcolumn="42" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="ttt" class="IndexPageBaseTest" method="assertTitleGame" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;newGame&quot; appears 10 times in this file; the first occurrence is on line 38
+</violation>
+<violation beginline="48" endline="48" begincolumn="9" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks" variable="wait" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'wait' could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="9" endcolumn="49" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="50" endline="50" begincolumn="9" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="51" endline="51" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="53" endline="53" begincolumn="9" endcolumn="101" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="53" endline="53" begincolumn="61" endcolumn="100" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="58" endline="58" begincolumn="17" endcolumn="37" rule="JUnitTestContainsTooManyAsserts" ruleset="JUnit" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/junit.html#JUnitTestContainsTooManyAsserts" priority="3">
+JUnit tests should not contain more than 1 assert(s).
+</violation>
+<violation beginline="62" endline="62" begincolumn="9" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks2" variable="wait" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'wait' could be declared final
+</violation>
+<violation beginline="63" endline="63" begincolumn="9" endcolumn="49" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="64" endline="64" begincolumn="9" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="66" endline="66" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="68" endline="68" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="71" endline="71" begincolumn="9" endcolumn="101" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="71" endline="71" begincolumn="61" endcolumn="100" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="72" endline="72" begincolumn="9" endcolumn="101" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="72" endline="72" begincolumn="61" endcolumn="100" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersMarks2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="81" endline="81" begincolumn="9" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="ttt" class="IndexPageBaseTest" method="assertPlayerWins" variable="wait" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'wait' could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="9" endcolumn="49" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayerWins" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="83" endline="83" begincolumn="9" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayerWins" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="85" endline="85" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayerWins" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="87" endline="87" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayerWins" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="89" endline="89" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayerWins" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="91" endline="91" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayerWins" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="93" endline="93" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayerWins" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="94" endline="94" begincolumn="100" endcolumn="136" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="ttt" class="IndexPageBaseTest" method="assertPlayerWins" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;Player 1: 1 | Player 2: 0 | Ties: 0&quot; appears 5 times in this file; the first occurrence is on line 94
+</violation>
+<violation beginline="94" endline="94" begincolumn="89" endcolumn="95" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="ttt" class="IndexPageBaseTest" method="assertPlayerWins" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;score&quot; appears 11 times in this file; the first occurrence is on line 94
+</violation>
+<violation beginline="96" endline="96" begincolumn="9" endcolumn="133" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayerWins" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="96" endline="96" begincolumn="89" endcolumn="132" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayerWins" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="105" endline="105" begincolumn="9" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="ttt" class="IndexPageBaseTest" method="assertPlayer2StartsWhenFirstGameIsOver" variable="wait" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'wait' could be declared final
+</violation>
+<violation beginline="106" endline="106" begincolumn="9" endcolumn="49" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer2StartsWhenFirstGameIsOver" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="107" endline="107" begincolumn="9" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer2StartsWhenFirstGameIsOver" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="109" endline="109" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer2StartsWhenFirstGameIsOver" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="111" endline="111" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer2StartsWhenFirstGameIsOver" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="113" endline="113" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer2StartsWhenFirstGameIsOver" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="115" endline="115" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer2StartsWhenFirstGameIsOver" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="117" endline="117" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer2StartsWhenFirstGameIsOver" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="120" endline="120" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer2StartsWhenFirstGameIsOver" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="123" endline="123" begincolumn="9" endcolumn="101" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer2StartsWhenFirstGameIsOver" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="123" endline="123" begincolumn="61" endcolumn="100" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer2StartsWhenFirstGameIsOver" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="132" endline="132" begincolumn="9" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" variable="wait" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'wait' could be declared final
+</violation>
+<violation beginline="133" endline="133" begincolumn="9" endcolumn="49" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="134" endline="134" begincolumn="9" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="136" endline="136" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="138" endline="138" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="140" endline="140" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="142" endline="142" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="144" endline="144" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="147" endline="147" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="149" endline="149" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="151" endline="151" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="153" endline="153" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="155" endline="155" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="158" endline="158" begincolumn="9" endcolumn="133" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="158" endline="158" begincolumn="89" endcolumn="132" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayer1WinsAndThenPlayer2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="167" endline="167" begincolumn="9" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="ttt" class="IndexPageBaseTest" method="assertPlayersPlayAndGameEndWithTie" variable="wait" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'wait' could be declared final
+</violation>
+<violation beginline="168" endline="168" begincolumn="9" endcolumn="49" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersPlayAndGameEndWithTie" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="169" endline="169" begincolumn="9" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersPlayAndGameEndWithTie" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="171" endline="171" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersPlayAndGameEndWithTie" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="173" endline="173" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersPlayAndGameEndWithTie" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="175" endline="175" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersPlayAndGameEndWithTie" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="177" endline="177" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersPlayAndGameEndWithTie" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="179" endline="179" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersPlayAndGameEndWithTie" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="181" endline="181" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersPlayAndGameEndWithTie" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="183" endline="183" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersPlayAndGameEndWithTie" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="185" endline="185" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersPlayAndGameEndWithTie" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="187" endline="187" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersPlayAndGameEndWithTie" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="190" endline="190" begincolumn="9" endcolumn="133" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersPlayAndGameEndWithTie" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="190" endline="190" begincolumn="89" endcolumn="132" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertPlayersPlayAndGameEndWithTie" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="195" endline="195" begincolumn="17" endcolumn="37" rule="JUnitTestContainsTooManyAsserts" ruleset="JUnit" package="ttt" class="IndexPageBaseTest" method="assertNewGameButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/junit.html#JUnitTestContainsTooManyAsserts" priority="3">
+JUnit tests should not contain more than 1 assert(s).
+</violation>
+<violation beginline="199" endline="199" begincolumn="9" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="ttt" class="IndexPageBaseTest" method="assertNewGameButton" variable="wait" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'wait' could be declared final
+</violation>
+<violation beginline="200" endline="200" begincolumn="9" endcolumn="49" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertNewGameButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="201" endline="201" begincolumn="9" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertNewGameButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="203" endline="203" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertNewGameButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="205" endline="205" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertNewGameButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="207" endline="207" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertNewGameButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="209" endline="209" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertNewGameButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="211" endline="211" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertNewGameButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="213" endline="213" begincolumn="9" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertNewGameButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="216" endline="216" begincolumn="9" endcolumn="136" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertNewGameButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="216" endline="216" begincolumn="92" endcolumn="135" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertNewGameButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="217" endline="217" begincolumn="9" endcolumn="97" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertNewGameButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="217" endline="217" begincolumn="57" endcolumn="96" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertNewGameButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="222" endline="222" begincolumn="17" endcolumn="60" rule="JUnitTestContainsTooManyAsserts" ruleset="JUnit" package="ttt" class="IndexPageBaseTest" method="assertTwoDifferentPlayersClickingSameField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/junit.html#JUnitTestContainsTooManyAsserts" priority="3">
+JUnit tests should not contain more than 1 assert(s).
+</violation>
+<violation beginline="226" endline="226" begincolumn="9" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="ttt" class="IndexPageBaseTest" method="assertTwoDifferentPlayersClickingSameField" variable="wait" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'wait' could be declared final
+</violation>
+<violation beginline="227" endline="227" begincolumn="9" endcolumn="49" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertTwoDifferentPlayersClickingSameField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="228" endline="228" begincolumn="9" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertTwoDifferentPlayersClickingSameField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="230" endline="230" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertTwoDifferentPlayersClickingSameField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="232" endline="232" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertTwoDifferentPlayersClickingSameField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="234" endline="234" begincolumn="9" endcolumn="46" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertTwoDifferentPlayersClickingSameField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="237" endline="237" begincolumn="9" endcolumn="101" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertTwoDifferentPlayersClickingSameField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="237" endline="237" begincolumn="61" endcolumn="100" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertTwoDifferentPlayersClickingSameField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="238" endline="238" begincolumn="9" endcolumn="101" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertTwoDifferentPlayersClickingSameField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="238" endline="238" begincolumn="61" endcolumn="100" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertTwoDifferentPlayersClickingSameField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+</file>
+</pmd>
