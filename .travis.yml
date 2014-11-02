@@ -13,7 +13,7 @@ script:
 - ./gradlew check
 - heroku push --app erkimoddarar-staging
 - ./gradlew seleniumXvfb
-after_success: 
+after_success:
 - chmod +x bin/update-gh-pages.sh
 - ./bin/update-gh-pages.sh
 deploy:
@@ -23,8 +23,7 @@ deploy:
   app: erkimoddarar
   on: master
 env:
-  matrix:
+  matrix: 
   global:
-    secure: Bcg7ys3hNT4umnG3jtlqcEoNCoHntuaRYgmL19ZQHxthT9kcZscSvFcwjd1NEXGYB5uBu4NKhQXSC3sydPTHeeaDbGQ+LCMIy4HFpOPl160LrvTO/kwiqAb589Vb+Bsuvj31Ev21h97OvZWBFQPe9i8n+Shbo/ZiX+b8ysTHLPQ=
-    secure: hkXT/VBCBm5dagOucVNFWDUqC9dGb8f7IOIc5gqO/8YuJ2a4xJWPMHNvYk72CAKyrS+1ClZ+PBAOCvob4NBNH+02olJldm5H7UYDm+bJDcOnYddSezIM6QPL5Zl8PJ7f9XtgC/uvrxAmOlatNUHx4iqzLyhoRXc6+wNhlMiQxg0=
-
+  - secure: hkXT/VBCBm5dagOucVNFWDUqC9dGb8f7IOIc5gqO/8YuJ2a4xJWPMHNvYk72CAKyrS+1ClZ+PBAOCvob4NBNH+02olJldm5H7UYDm+bJDcOnYddSezIM6QPL5Zl8PJ7f9XtgC/uvrxAmOlatNUHx4iqzLyhoRXc6+wNhlMiQxg0=
+  - secure: YvQwNrrHEntk6hOZd4UVZJuC/pPfaAziCcNToEkHPzk7dAlltt5T+MprEWk05VVBvs9ORsYHd+XFIkMhnD4ZS3zhqlZUE1rRWg/EzHV4W68GjcqqIz6eq9+J+RDFAzucN9vbZKgbYTPhtCMvgez7HBXqpU5dr7xcZ80pJBa/Dps=
