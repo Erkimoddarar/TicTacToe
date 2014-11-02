@@ -25,7 +25,7 @@ repositories {
 sourceSets {
     selenium
     seleniumXvfb
-// sourceset for classes we want in code coverage report
+// sourceSet for classes we want in code coverage report
     codeCov {
 	java {
 	    srcDir 'src/main/java/ttt'
