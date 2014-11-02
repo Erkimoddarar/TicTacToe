@@ -2,12 +2,8 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   echo -e "Starting to update gh-pages\n"
 
   #copy data we're interested in to other place
-  echo `pwd`
-  echo `ls`
   cd ~/
   mkdir roni
-  echo `pwd`
-  echo `ls`
   cp -Rf ~/build/Erkimoddarar/TicTacToe/build/reports/ $HOME/roni
 
   #go to home and setup git
@@ -27,5 +23,5 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to gh-pages"
   git push -fq origin gh-pages > /dev/null
 
-  echo -e "Done magic with coverage\n"
+  echo -e "Done magic with the Erkimoddara reports\n"
 fi
