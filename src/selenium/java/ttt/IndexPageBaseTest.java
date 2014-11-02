@@ -237,9 +237,4 @@ public class IndexPageBaseTest {
         assertEquals("The mark for player2 was not O", "O", driver.findElement(By.id("1")).getText());
         driver.close();
     }
-
-    @Test
-    public void assertturgl() {
-        
-    }
 }
