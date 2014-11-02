@@ -2,7 +2,12 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   echo -e "Starting to update gh-pages\n"
 
   #copy data we're interested in to other place
-  cp -Rf build/reports/* $HOME/coverage
+  echo `pwd`
+  echo `ls`
+  cd ~/
+  echo `pwd`
+  echo `ls`
+  cp -Rf build/reports/ $HOME/coverage
 
   #go to home and setup git
   cd $HOME
