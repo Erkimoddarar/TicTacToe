@@ -33,7 +33,6 @@ public class Cell {
 		return _number;
 	}
 	
-	/*
 	public int foo() {
 		return 0;
 	}
@@ -53,5 +52,4 @@ public class Cell {
 	public int foo4() {
 		return 0;
 	}
-	*/
 }
