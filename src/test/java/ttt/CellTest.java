@@ -39,7 +39,7 @@ public class CellTest {
 
 	@Test
 	public void getNumberTest() {
-		final Cell cell = new Cell(5);
+		final Cell cell = new Cell(2);
 		assertEquals("Did not get the right number, 5.", 5, cell.getNumber());
 	}
 }
