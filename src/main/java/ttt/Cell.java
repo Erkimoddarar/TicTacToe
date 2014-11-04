@@ -33,6 +33,26 @@ public class Cell {
 		return _number;
 	}
 
+	public int foo() {
+		return 0;
+	}
+
+	public int foo1() {
+		return 0;
+	}
+
+	public int foo2() {
+		return 0;
+	}
+
+	public int foo3() {
+		return 0;
+	}
+
+	public int foo4() {
+		return 0;
+	}
+
 	/*
 	public boolean getPartOfWinningLine() {
 		return _partOfWinningLine;
