@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.1.1" timestamp="2014-11-04T11:19:05.759">
+<pmd version="5.1.1" timestamp="2014-11-04T11:30:11.265">
 <file name="/home/travis/build/Erkimoddarar/TicTacToe/src/test/java/ttt/BoardTest.java">
 <violation beginline="16" endline="16" begincolumn="41" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ttt" class="BoardTest" method="main" variable="args" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
 Parameter 'args' is not assigned and could be declared final
