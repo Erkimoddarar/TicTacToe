@@ -32,7 +32,7 @@ public class Cell {
 	public int getNumber() {
 		return _number;
 	}
-
+	/*
 	public int foo() {
 		return 0;
 	}
@@ -51,15 +51,6 @@ public class Cell {
 
 	public int foo4() {
 		return 0;
-	}
-
-	/*
-	public boolean getPartOfWinningLine() {
-		return _partOfWinningLine;
-	}
-
-	public void setPartOfWinningLine() {
-		_partOfWinningLine = true;
 	}
 	*/
 }
