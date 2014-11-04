@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.1.1" timestamp="2014-11-02T19:55:52.796">
+<pmd version="5.1.1" timestamp="2014-11-04T11:19:04.050">
 <file name="/home/travis/build/Erkimoddarar/TicTacToe/src/selenium/java/ttt/IndexPageBaseTest.java">
 <violation beginline="3" endline="3" begincolumn="1" endcolumn="37" rule="UnusedImports" ruleset="Type Resolution" package="ttt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/typeresolution.html#UnusedImports" priority="4">
 Avoid unused imports such as 'java.util.concurrent.TimeUnit'
@@ -33,6 +33,9 @@ Avoid unused imports such as 'org.junit.BeforeClass'
 </violation>
 <violation beginline="14" endline="14" begincolumn="1" endcolumn="40" rule="UnusedImports" ruleset="Type Resolution" package="ttt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/typeresolution.html#UnusedImports" priority="4">
 Avoid unused imports such as 'org.openqa.selenium.support.ui'
+</violation>
+<violation beginline="17" endline="246" begincolumn="32" endcolumn="1" rule="TooManyMethods" ruleset="Code Size" package="ttt" class="IndexPageBaseTest" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/codesize.html#TooManyMethods" priority="3">
+This class has too many methods, consider refactoring it.
 </violation>
 <violation beginline="26" endline="26" begincolumn="19" endcolumn="61" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="ttt" class="IndexPageBaseTest" method="assertTitle" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
 The String literal &quot;http://erkimoddarar-staging.herokuapp.com&quot; appears 10 times in this file; the first occurrence is on line 26
@@ -327,6 +330,12 @@ Potential violation of Law of Demeter (method chain calls)
 </violation>
 <violation beginline="238" endline="238" begincolumn="61" endcolumn="100" rule="LawOfDemeter" ruleset="Coupling" package="ttt" class="IndexPageBaseTest" method="assertTwoDifferentPlayersClickingSameField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/coupling.html#LawOfDemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="243" endline="245" begincolumn="31" endcolumn="5" rule="UncommentedEmptyMethod" ruleset="Design" package="ttt" class="IndexPageBaseTest" method="assertCheck" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="243" endline="245" begincolumn="12" endcolumn="5" rule="JUnitTestsShouldIncludeAssert" ruleset="JUnit" package="ttt" class="IndexPageBaseTest" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.1/rules/java/junit.html#JUnitTestsShouldIncludeAssert" priority="3">
+JUnit tests should include assert() or fail()
 </violation>
 </file>
 </pmd>
