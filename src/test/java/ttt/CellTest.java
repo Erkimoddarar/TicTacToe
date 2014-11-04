@@ -42,18 +42,4 @@ public class CellTest {
 		final Cell cell = new Cell(5);
 		assertEquals("Did not get the right number, 5.", 5, cell.getNumber());
 	}
-	/*
-	@Test
-	public void getPartOfWinningLineTest() {
-		final Cell cell = new Cell(0);
-		assertFalse("Returned true, sould return false" ,cell.getPartOfWinningLine());
-	}
-
-	@Test
-	public void setPartOfWinnigLineTest() {
-		final Cell cell = new Cell(0);
-		cell.setPartOfWinningLine();
-		assertTrue("Returned false, should be true." ,cell.getPartOfWinningLine());
-	}
-	*/
 }

@@ -25,7 +25,7 @@ public class IndexPageBaseTest {
         driver = new FirefoxDriver();
         baseUrl = "http://erkimoddarar-staging.herokuapp.com";
         driver.get(baseUrl + "/");
-        assertEquals("The title was not Erkimoddarar", "ErkimoddararR", driver.getTitle());
+        assertEquals("The title was not Erkimoddarar", "Erkimoddarar", driver.getTitle());
         driver.close();
     }
     
