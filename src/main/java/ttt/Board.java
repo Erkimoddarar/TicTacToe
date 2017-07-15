@@ -1,5 +1,5 @@
 package ttt;
-
+# Haha Thetta er hilmar arid 2017, thvi eg er ad profa git, thvi eg nae ekki ad lata thad virka hja broadsheet 
 public class Board {
 	private Cell[][] _board;
 
